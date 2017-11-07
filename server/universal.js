@@ -13,7 +13,7 @@ const handleRender = async (req, res) => {
         res.send(template(html, preloadedState))
     } catch (error) {
         // Throw error to page
-        res.send(template(html))
+        res.status(500).send(error)
     }
 }
 

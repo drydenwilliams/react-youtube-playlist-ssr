@@ -1,0 +1,12 @@
+.go-back-btn {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover {
+        color: lighten(#000, 25%)
+    }
+}

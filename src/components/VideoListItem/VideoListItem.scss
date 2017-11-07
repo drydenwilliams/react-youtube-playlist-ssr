@@ -10,13 +10,24 @@
     &:hover {
         box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     }
+}
+
+
+.video-list__item .content,
+.video-list__item .image {
     @media (min-width: 768px) {
-        display: flex;
+        display: inline-block;
+        vertical-align: middle;
     }
 }
 
 .video-list__item .image {
     position: relative;
+
+    @media (min-width: 768px) {
+        width: 40%;
+    }
+
     img {
         position: relative;
         width: 100%;
@@ -24,16 +35,21 @@
         width: 100%;
         height: auto;
         margin: 0 auto;
+
+        @media (min-width: 768px) {
+
+        }
     }
 }
 
 .video-list__item .content {
     @media (min-width: 768px) {
-        width: calc(100% - 250px);
+        width: 60%;
         padding: 20px;
         box-sizing: border-box;
     }
 }
+
 
 .video-list__item .content .description {
     display: none;

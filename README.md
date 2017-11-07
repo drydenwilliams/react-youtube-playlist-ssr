@@ -1,4 +1,7 @@
 # YouTube Playlist
+A Server Side React app using YouTube API.
+
+You can see the demo here: [DEMO](https://youtube-playlist-dw.herokuapp.com/)
 
 ## Installation
 

@@ -1,19 +1,23 @@
 # YouTube Playlist
-A YouTube playlist in React with Server Side Rendering
 
 ## Installation
 
 ```
 $ npm i 
 
-$ npm run start
-
 $ npm run test
+
+$ npm run start
 ```
+
+## Comments
+
+I really enjoyed this coding challenge. I could have added Redux but think it's fine without it. 
+Also should have/ would like to have had more time to add unit-tests with Enzyme.
 
 ## Things to Improve
 
+* Switch images bases on size of device.
 * Clean up `scss` property order
-* Add Enzyme to unit tests
-* Compress and Minify static `js` and `css` files
+* Minify `js` and `css` files
 
